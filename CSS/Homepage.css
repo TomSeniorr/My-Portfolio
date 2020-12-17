@@ -1,0 +1,48 @@
+/* Main Header Div */
+.page-header {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(157, 175, 169);
+}
+/* Content Div */
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 85%;
+}
+.header-content h4 {
+  font-size: 60px;
+  font-family: Verdana;
+  font-weight: 800;
+  text-shadow: 1px solid white;
+}
+.scroll {
+  width: 35%;
+  height: 8vh;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Verdana;
+  font-weight: 800;
+  text-shadow: 1px solid white;
+  background-color: #555;
+  color: white;
+}
+
+/*  Media Queries */
+@media (max-width: 600px) {
+  .scroll {
+    width: 100%;
+    font-size: 15px;
+  }
+  .header-content h4 {
+    font-size: 50px;
+  }
+}
