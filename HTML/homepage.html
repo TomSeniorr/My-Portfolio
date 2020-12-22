@@ -2,12 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="Description" content="Made by Tom Senior">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Tom Senior</title>
-    <link rel="stylesheet" href="/CSS/Default.css" />
-    <link rel="stylesheet" href="/CSS/Nav.css" />
-    <link rel="stylesheet" href="/CSS/Homepage.css" />
+      <link rel="stylesheet" href="/CSS/Pages/Homepage.css" />
+    <link rel="stylesheet" href="/CSS/RemoveDefault/Default.css" />
+    <link rel="stylesheet" href="/CSS/UsedMultiple/Nav.css" />
+    <link rel="stylesheet" href="/CSS/UsedMultiple/Footer.css">
   </head>
   <body>
     <!-- Navigation Section -->
@@ -30,10 +32,63 @@
     <header class="page-header">
       <div class="header-content">
         <h4>Welcome</h4>
-        <button class="scroll">Click to Go to bottom of page</button>
+      </div>
+      <div class="scroll-button">
+        <a href="#">
+          <img class='scroll' src="/IMAGES/scrolldown.png">
+        </a>
       </div>
     </header>
-
+    <!-- Welcome Section -->
+    <section class="offering">
+      <div class="offering-title">
+        <h1>This Website has the following to offer:</h1>
+      </div>
+      <section class="offer-sections">
+        <!-- Coding Section -->
+      <div class="to-offer">
+        <img src="/IMAGES/toshow/coding.png" alt="code">
+        <h2>Coding</h2>
+        <p>
+          Coding Experience to help my own personal development. Offering experience
+          within the open source projects and constantly learning new stuff
+        </p>
+      </div>
+      <!-- Design Section -->
+      <div class="to-offer">
+        <img src="/IMAGES/toshow/design.png" alt="design">
+        <h2>Design</h2>
+        <p>
+          Ability to help and design my own websites. Projects will be linked in the other
+          sections. Personal Examples will be located within the about page.
+        </p>
+      </div>
+      <!-- Chat Section -->
+      <div class="to-offer">
+        <img src="/IMAGES/toshow/chat.png" alt="chat">
+        <h2>Friendly Service</h2>
+        <p>
+          The purpose of this website is to design a page to which is instantly avaliable to
+          anyone to use and also the ability of having a welcoming feeling to the website.
+        </p>
+          </section>
+      </div>
+  
+    </section>
+    <!-- Footer Section -->
+    <footer>
+      <div class="copyright">
+         <h3> Copyright &copy; Tom Senior</h3>
+      </div> 
+      <div class="footer-links">
+        <ul>
+          <li><a href="/HTML/homepage.html">Home</a></li>
+          <li><a href="/HTML/About.html">About</a></li>
+          <li><a href="/HTML/Contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
     <script src="/JS/toggle.js"></script>
+    <script src="/JS/scroll.js"></script>
   </body>
 </html>

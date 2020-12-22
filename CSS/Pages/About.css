@@ -107,7 +107,7 @@
 .current-languages {
   width: 90%;
   height: 70vh;
-  margin: 25px auto;
+  margin: 30px auto;
   display: inline-grid;
   text-align: center;
   grid-template-columns: auto auto auto;
@@ -115,7 +115,7 @@
   padding: 10px;
 }
 .grid-item {
-  margin: 10px auto;
+  margin: auto;
 }
 .grid-item img {
   width: 200px;
@@ -140,7 +140,8 @@
     font-size: 18px;
   }
   .tech-stack {
-    width: 100%;
+    width: 90%;
+    margin: auto;
   }
   .tech-title {
     width: 100%;

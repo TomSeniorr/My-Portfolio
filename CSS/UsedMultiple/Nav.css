@@ -11,7 +11,7 @@
   font-size: 23px;
   margin: 1rem;
   font-family: Verdana;
-  font-weight: bold;
+  font-weight: 500;
 }
 /* Navbar Links  */
 .navbar-links ul {
@@ -30,7 +30,7 @@
   display: block;
   font-size: 18px;
   font-family: Verdana;
-  font-weight: bold;
+  font-weight: 500;
 }
 /* Links Hover Effect */
 .navbar-links a:hover {
