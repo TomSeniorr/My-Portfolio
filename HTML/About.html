@@ -1,91 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>About Me</title>
-    <link rel="stylesheet" href="/CSS/RemoveDefault/Default.css" />
-    <link rel="stylesheet" href="/CSS/UsedMultiple/Nav.css" />
-    <link rel="stylesheet" href="/CSS/Pages/About.css" />
-    <link rel="stylesheet" href="/CSS/UsedMultiple/Footer.css" />
-  </head>
-  <body>
-    <!-- Navigation Section -->
-    <nav class="navbar">
-      <div class="brand-title">Tom Senior</div>
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="/CSS/RemoveDefault/Default.css" />
+  <link rel="stylesheet" href="/CSS/UsedMultiple/Nav.css" />
+  <link rel="stylesheet" href="/CSS/Pages/About.css" />
+  <link rel="stylesheet" href="/CSS/UsedMultiple/Footer.css" />
+</head>
+
+<body>
+  <!-- Navigation Section -->
+  <nav class="navbar">
+    <div class="brand-title">Tom Senior</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="/HTML/homepage.html">Home</a></li>
+        <li><a href="/HTML/About.html">About</a></li>
+        <li><a href="/HTML/Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Header Section -->
+  <header class="page-header">
+    <div class="header-content">
+      <h4>About Me</h4>
+    </div>
+    <div class="scroll-button">
+      <a href="#">
+        <img class='scroll' src="/IMAGES/scrolldown.png">
       </a>
-      <div class="navbar-links">
-        <ul>
-          <li><a href="/HTML/homepage.html">Home</a></li>
-          <li><a href="/HTML/About.html">About</a></li>
-          <li><a href="/HTML/Contact.html">Contact</a></li>
-        </ul>
+  </header>
+  <!-- Introduction Section -->
+  <section class="introduction">
+    <div class="introduction-title">
+      <p>Hello, Welcome To My Portfolio</p>
+    </div>
+    <div class="introduction-information">
+      <p>
+        My name is <span>Tom Senior</span> and i am a self-taught Software
+        Developer from Cheshire. I will be showing everything you need to know
+        about me. Below in each section each will contain the Tech Stacks that
+        i know and my personal projects.
+      </p>
+    </div>
+  </section>
+  <!-- Current Tech Stack Section -->
+  <section class="tech-stack">
+    <div class="tech-section-title">
+      <h1>Below are the Tech Stacks I am familar With:</h1>
+    </div>
+    <div class="tech-stack-images">
+      <div class="image-container">
+        <label for="image">HTML</label>
+        <img src="/IMAGES/techstack/html.png" alt="html">
       </div>
-    </nav>
-    <!-- Header Section -->
-    <header class="page-header">
-      <div class="header-content">
-        <h4>About Me</h4>
+      <div class="image-container">
+        <label for="image">Javascript</label>
+        <img src="/IMAGES/techstack/javscript.png" alt="javascript">
       </div>
-    </header>
-    <!-- Into Section -->
-    <section class="intro">
-      <div class="intro-title">
-        <p>Hello, Welcome To My Portfolio</p>
+      <div class="image-container">
+        <label for="image">CSS</label>
+        <img src="/IMAGES/techstack/css.jpeg" alt="javascript">
       </div>
-      <div class="intro-information">
-        <p>
-          My name is <span>Tom Senior</span> and i am a self-taught Software
-          Developer from Cheshire. I will be showing everything you need to know
-          about me. Below in each section each will contain the Tech Stacks that
-          i know and my personal projects.
-        </p>
+    </div>
+  </section>
+  <!-- Project Section  -->
+  <section class="project-section">
+    <div class="project-title">
+      <h3>Below are a list of my projects</h3>
+      <p>As I complete more projects they will be all added to this section with a link
+        to the repositry of code on github so you can explore each project.
+      </p>
+    </div>
+    <div class="project-list-section">
+      <!-- Project One  -->
+      <div class="project">
+        <label for="#">Project Name</label>
+        <img src="/IMAGES/me-turkey.jpg" alt="screenshot">
+        <button class="repositry">Visit Code on Git</button>
       </div>
-    </section>
-    <!-- Tech Stack Section -->
-    <section class="tech-stack">
-      <div class="tech-title">
-        <p>Below are the Tech Stacks I know</p>
+      <!-- Project Two   -->
+      <div class="project">
+        <label for="#">Project Name</label>
+        <img src="/IMAGES/me-turkey.jpg" alt="screenshot">
+        <button class="repositry">Visit Code on Git</button>
       </div>
-      <div class="current-languages">
-        <div class="grid-item">
-          <img src="/IMAGES/techstack/html.png" alt="html" />
-        </div>
-        <div class="grid-item">
-          <img src="/IMAGES/techstack/css.jpeg" alt="css" />
-        </div>
-        <div class="grid-item">
-          <img src="/IMAGES/techstack/javscript.png" alt="javascript" />
-        </div>
-        <div class="grid-item">
-          <img src="/IMAGES/techstack/php.png" alt="php" />
-        </div>
-        <div class="grid-item">
-          <img src="/IMAGES/techstack/React.png" alt="React" />
-        </div>
-        <div class="grid-item">
-          <img src="/IMAGES/techstack/sql.png" alt="mySql" />
-        </div>
+      <!-- Project Three  -->
+      <div class="project">
+        <label for="#">Project Name</label>
+        <img src="/IMAGES/me-turkey.jpg" alt="screenshot">
+        <button class="repositry">Visit Code on Git</button>
       </div>
-    </section>
-    <!-- Footer Section -->
-    <footer>
-      <div class="copyright">
-        <h3>Copyright &copy; Tom Senior</h3>
-      </div>
-      <div class="footer-links">
-        <ul>
-          <li><a href="/HTML/homepage.html">Home</a></li>
-          <li><a href="/HTML/About.html">About</a></li>
-          <li><a href="/HTML/Contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </footer>
-  </body>
-  <script src="/JS/toggle.js"></script>
+    </div>
+  </section>
+  <!-- Social Links  -->
+  <section class="social-links">
+    <div class="social">
+      <a href="#">GitHub</a>
+      <a href="#">Instagram</a>
+      <a href="#">Linkedin</a>
+    </div>
+  </section>
+  <!-- Footer Section -->
+  <footer>
+    <div class="copyright">
+      <h3>Copyright &copy; Tom Senior</h3>
+    </div>
+    <div class="footer-links">
+      <ul>
+        <li><a href="/HTML/homepage.html">Home</a></li>
+        <li><a href="/HTML/About.html">About</a></li>
+        <li><a href="/HTML/Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+<script src="/JS/toggle.js"></script>
+
 </html>

@@ -24,13 +24,17 @@
 }
 /* --- Scroll Image ---  */
 .scroll-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px auto;
-  padding: 5px;
   width: 30%;
   height: 30%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scroll {
+  width: 150px;
+  height: 150px;
+  padding: 5px;
 }
 /* --- To Show Section --- */
 .offering {
@@ -93,17 +97,6 @@
   font-weight: 300;
   text-align: center;
   margin: auto;
-}
-/* --- Scroll Button ---  */
-.scroll-button {
-  width: 25%;
-  height: 20vh;
-  margin: 10px auto;
-}
-.scroll {
-  width: 150px;
-  height: 150px;
-  padding: 10px;
 }
 /*  Media Queries */
 @media (max-width: 600px) {

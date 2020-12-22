@@ -1,164 +1,256 @@
-/* Main Header Div */
+/* ---  Main Header Div --- */
 .page-header {
-  margin: 1px 0px;
-  width: 100%;
-  height: 60vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
   background-color: rgb(157, 175, 169);
 }
-/* Content Div */
+
+/* --- Content Div --- */
 .header-content {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  margin: 25px auto;
+  padding: 5px;
   width: 85%;
-  height: 85%;
+  height: 50%;
 }
+
 .header-content h4 {
-  font-size: 60px;
+  font-size: 90px;
   font-family: Verdana;
-  font-weight: 800;
+  color: black;
+  font-weight: 300;
   text-shadow: 1px solid white;
 }
-/* Intro Section */
-.intro {
+
+/* --- Scroll Image ---  */
+.scroll-button {
+  width: 30%;
+  height: 30%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll {
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+}
+
+/* --- Introduction  Section ---  */
+.introduction {
   margin: 1px 0px;
   display: flex;
   flex-direction: column;
-  background-color: #f0ffff;
+  background-color: whitesmoke;
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   border-bottom: 1px dashed #555;
 }
-/* Intro Title */
-.intro-title {
+
+/* --- Intro Title --- */
+.introduction-title {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90%;
-  height: 10vh;
-  margin: 20px auto;
-}
-.intro-title p {
-  font-size: 35px;
-  font-family: Verdana;
-  font-weight: 500;
-  letter-spacing: 1px;
-  border-bottom: 3px dotted red;
-}
-/* Intro Information */
-.intro-information {
-  display: flex;
-  align-items: center;
   width: 90%;
   height: 20vh;
   margin: 15px auto;
 }
-.intro-information p {
-  text-align: center;
-  font-size: 22px;
+
+.introduction-title p {
+  font-size: 38px;
   font-family: Verdana;
-  font-weight: 500;
+  font-weight: 300;
+  border-bottom: 3px dotted red;
+}
+
+.introduction-information {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 40vh;
+  margin: 15px auto;
+}
+
+.introduction-information p {
+  text-align: center;
+  font-size: 24px;
+  font-family: Verdana;
+  font-weight: 300;
   line-height: 1.6;
 }
-.intro-information span {
-  font-size: 20px;
-  font-weight: 800;
+
+.introduction-information span {
+  font-size: 26px;
+  font-weight: bold;
   border-bottom: 3px dotted red;
   margin: 2px;
 }
-/* ---------------------------------------- */
-/* Tech Stack Section */
+
+/* --- Tech Stack Section ---  */
 .tech-stack {
-  margin: 1px 0px;
   display: flex;
   flex-direction: column;
-  background-color: azure;
   width: 100%;
-  height: 120vh;
+  height: 70vh;
+  background-color: whitesmoke;
+  border-bottom: 1px dashed #555;
 }
-.tech-title {
+
+/* --- Current Languages Section --- */
+.tech-section-title {
+  background-color: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
   height: 10vh;
-  margin: 30px auto;
+  width: 80%;
+  margin: 15px auto;
 }
-.tech-title p {
-  text-align: center;
-  font-size: 35px;
+
+.tech-section-title h1 {
+  font-size: 24px;
   font-family: Verdana;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.6;
   border-bottom: 3px dotted red;
 }
-/* Current Languages Section */
-.tech-stack p {
-  text-align: center;
-  font-size: 22px;
-  font-family: Verdana;
-  font-weight: 500;
-  line-height: 1.6;
-}
-.current-languages {
-  width: 90%;
-  height: 70vh;
-  margin: 30px auto;
-  display: inline-grid;
-  text-align: center;
-  grid-template-columns: auto auto auto;
-  background-color: #7e8b96;
-  padding: 10px;
-}
-.grid-item {
-  margin: auto;
-}
-.grid-item img {
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
+
+.tech-stack-images {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50vh;
+  margin: 10px 0px;
 }
 
-@media (max-width: 650px) {
-  .header-content h4 {
-    font-size: 50px;
-  }
-  .intro {
-    width: 100%;
-  }
-  .intro-title p {
-    font-size: 18px;
-  }
-  .intro-information p {
-    font-size: 15px;
-  }
-  .intro-information span {
-    font-size: 18px;
-  }
-  .tech-stack {
-    width: 90%;
-    margin: auto;
-  }
-  .tech-title {
-    width: 100%;
-  }
-  .tech-title p {
-    font-size: 18px;
-  }
-  .current-languages {
-    width: 100%;
-    grid-template-columns: auto auto;
-  }
-  .grid-item {
-    margin: 1px;
-    width: 100%;
-  }
-  .grid-item img {
-    width: 150px;
-    height: 150px;
-  }
+.image-container {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 90%;
+  margin: 14px auto;
 }
+
+.image-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  margin: 15px 0px;
+}
+
+.image-container label {
+  font-size: 24px;
+  color: black;
+  font-family: Verdana;
+  font-weight: 500;
+  border-bottom: 3px dotted red;
+}
+
+/* --- Project-Section ---  */
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 110vh;
+  background-color: whitesmoke;
+  border-bottom: 1px dashed #555;
+}
+
+.project-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 30h;
+  margin: 20px auto;
+}
+
+.project-title h3 {
+  font-size: 26px;
+  color: black;
+  font-family: Verdana;
+  font-weight: 500;
+  border-bottom: 3px dotted red;
+}
+
+.project-title p {
+  font-size: 18px;
+  color: black;
+  font-family: Verdana;
+  font-weight: 500;
+}
+
+/* --- List of project section --- */
+.project-list-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+  /* Can Adjust this height when needed to fit more projects in */
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(202, 199, 199);
+  width: 30%;
+  height: 60%;
+  margin: 10px auto;
+}
+
+.project label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 10vh;
+  margin: 10px auto;
+  font-size: 22px;
+  color: black;
+  font-family: Verdana;
+  font-weight: 500;
+  text-align: center;
+}
+
+.project img {
+  display: flex;
+  margin: 10px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.repositry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 50%;
+  height: 5vh;
+  margin: 10px auto;
+  font-size: 16px;
+  font-family: Verdana;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+}
+
+/* --- Social Media Section ---  */
+
+
+
+@media (max-width: 600px) {}
